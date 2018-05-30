@@ -14,12 +14,11 @@ var markerLayer = new L.FeatureGroup();
 window.cityData.forEach(function(row){
   var marker = new L.Marker([row.Lat,-row.Long], {
     title: row.City,
+
     riseOnHover: true,
     autoPan: true,
     bubblingMouseEvents: true,
-    icon: L.icon({
-      
-
+    icon: L.divIcon({
       className: "city-marker"
     })
   });
@@ -31,8 +30,8 @@ row.marker = marker;
   marker.bindPopup(`
 <h1 style="color:orange;",style="font-size:200%;"">${row.City}</h1>
 <ul style="color:black;">
-  <li> Overall job growth (last 10 years): <b>${row.j_growth}</b>
-  <li> Job Growth in Tech Sector (last 5 years): <b>${row.tech_growth}</b>
+  <li> Overall job growth (last 10 years): <b>${row.j_g_p}</b>
+  <li> Job Growth in Tech Sector (last 5 years): <b>${row.t_g_p}</b>
   <li> Offered tax incentives: <b>${row.tax_in}</b>
   <li> Traffic congestion: <b>${row.Traffic}</b>
   <li> Airport(s) that meet requirements: <b>${row.Airport_Name}</b>
@@ -70,7 +69,7 @@ for(var i = 0; i < blocks.length; i++){
     var matches = window.cityData.filter(filter);
     window.cityData.forEach(d => d.marker.getElement().classList.remove("highlight"));
     matches.forEach(d=> d.marker.getElement().classList.add("highlight"));
-    console.log(matches);
+    //console.log(matches);
     break;
   }
 

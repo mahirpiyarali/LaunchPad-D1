@@ -13,7 +13,16 @@ Amazon's main criteria and which cities do/don't fit the bill.
 
 :end
 
-closer: TEST
+closer:
+
+Though Amazon has yet to declare the date of their announcement, analysts report
+that Amazon has visited all 20 candidate cities and is expected to make an
+announcement soon. We've seen all the criteria, and we know which cities match
+and which ones don't. Will Amazon do the number crunching and make their
+decision strictly based on data? Or are there other factors that we have yet to
+know about? Only time will tell.
+
+:end 
 
 [sections]
 
