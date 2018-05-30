@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <%= t.include("partials/_head.html", grunt.data.json) %>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+
+    <section class="intro over">
+      <h1><%= archieml.story.title %></h1>
+      <div class="constrained">
+        <%= archieml.story.starter %>
+      </div>
+    </section>
+
+    <% archieml.story.sections.forEach(function(section) { %>
+      <div class="constrained">
+        <section class="map-item <%= section.alignment %>" data-filter="<%= section.filter %>"> 
+          <h2><%= section.title %></h2>
+          <%= t.renderMarkdown(section.text) %>
+        </section>
+      </div>
+    <% }) %>
+    <div class="map-container">
+      <leaflet-map>
+        <map-options>
+{ "scrollWheelZoom": false }
+        </map-options>
+        <tile-layer layer="cartoPositron"></tile-layer>
+      </leaflet-map>
+      <div class="cover"></div>
+    </div>
+
+    <script>
+window.cityData = <%= JSON.stringify(csv.cities) %>;
+    </script>
+    <script src="app.js" async></script>
+    <% if (json.project.production) { %>
+    <%= !json.project.embedded ? t.include("partials/_analytics.html") : "" %>
+    <%= t.include("partials/_workHere.html") %>
+    <% } %>
+  </body>
+</html>

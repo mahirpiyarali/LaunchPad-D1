@@ -1,0 +1,65 @@
+@import "seattletimes";
+
+leaflet-map:not([ready]) {
+  opacity: 0;
+}
+
+.over {
+  background: white;
+  position: relative;
+  z-index: 99;
+  padding: 16px;
+}
+
+.constrained {
+  max-width: 800px;
+  margin: auto;
+}
+
+.map-item {
+  float: right;
+  width: 300px;
+  padding: 20px;
+  background: white;
+  margin-bottom: 80vh;
+  clear: both;
+  z-index: 999;
+  position: relative;
+
+  &.left {
+    float: left;
+  }
+}
+
+.map-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  leaflet-map {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.city-marker {
+  background: @df-blue;
+  border-radius: 100%;
+  &.highlight{
+    background: red;
+  
+  }
+}
