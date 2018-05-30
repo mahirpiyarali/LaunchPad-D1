@@ -2,14 +2,14 @@ title: Mapping Out Amazon's Future Home
 
 starter:
 
-Amazon has decided to make their selection process for their HQ2 public, meaning
-that anyone and everyone has access to the criteria they're looking for in their
-next hub. All interested cities were instructed to submit a proposal on why
-that city should be Amazon's next home. Recently, they narrowed their search
-down to 20 final candidate cities, and are expected to make their final
-decision soon, with some experts predicting a decision within a month or so.
-This interactive map will walk you through some of Amazon's main criteria and
-which cities do/don't fit the bill.
+It's a contest! Amazon has decided to make their selection process for their
+HQ2 public, meaning that anyone and everyone has access to the criteria
+they're looking for in their next hub. All interested cities were instructed
+to submit a proposal on why that city should be Amazon's next home. Recently,
+they narrowed their search down to 20 final candidate cities, and are expected
+to make their final decision soon, with some experts predicting a decision
+within a month or so. This interactive map will walk you through some of
+Amazon's main criteria and which cities do/don't fit the bill.
 
 :end
 
