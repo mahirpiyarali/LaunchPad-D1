@@ -13,6 +13,8 @@ Amazon's main criteria and which cities do/don't fit the bill.
 
 :end
 
+closer: TEST
+
 [sections]
 
 title: Overall Job Growth
@@ -101,5 +103,6 @@ Newark have all offered Amazon tax incentives of at least $1 billion.
 :end
 
 filter: incentives
+
 
 []

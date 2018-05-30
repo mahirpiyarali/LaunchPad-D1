@@ -14,7 +14,12 @@ var markerLayer = new L.FeatureGroup();
 window.cityData.forEach(function(row){
   var marker = new L.Marker([row.Lat,-row.Long], {
     title: row.City,
-    icon: L.divIcon({
+    riseOnHover: true,
+    autoPan: true,
+    bubblingMouseEvents: true,
+    icon: L.icon({
+      
+
       className: "city-marker"
     })
   });
@@ -38,7 +43,8 @@ row.marker = marker;
 });
 
 markerLayer.addTo(map);
-map.fitBounds(markerLayer.getBounds());
+//map.fitBounds(markerLayer.getBounds());
+map.fitBounds([[50.792,-129.7],[18.64,-62.66]]);
 
 var blocks = $(".map-item").reverse();
 var filters = {
@@ -46,7 +52,7 @@ var filters = {
   t_growth: d=>d.tech_growth > .06 && d.j_growth > .05,
   rent: d=>d.rent < 1150,
   airports: d=>d.Airport > 0,
-  traffic: d=> d.Traffic <=10,
+  traffic: d=> d.Traffic > 10,
   incentives: d=>d.t_in_num > 0,
   all: d=>true,
 
@@ -70,4 +76,6 @@ for(var i = 0; i < blocks.length; i++){
 
 }
 
-})
+});
+
+// map.on("click", e => console.log(e.latlng));

@@ -8,19 +8,21 @@
 
     <section class="intro over">
       <h1><%= archieml.story.title %></h1>
+      <img src="./assets/p1.jpg">
       <div class="constrained">
         <%= archieml.story.starter %>
       </div>
     </section>
-
+    <div class="constrained">
     <% archieml.story.sections.forEach(function(section) { %>
-      <div class="constrained">
-        <section class="map-item <%= section.alignment %>" data-filter="<%= section.filter %>"> 
+
+        <section class="map-item <%= section.alignment %>" data-filter="<%= section.filter %>">
           <h2><%= section.title %></h2>
           <%= t.renderMarkdown(section.text) %>
         </section>
-      </div>
+
     <% }) %>
+    </div>
     <div class="map-container">
       <leaflet-map>
         <map-options>
@@ -30,6 +32,12 @@
       </leaflet-map>
       <div class="cover"></div>
     </div>
+
+    <section class="outro over">
+      <div class="constrained">
+        <%= archieml.story.closer %>
+      </div>
+    </section>
 
     <script>
 window.cityData = <%= JSON.stringify(csv.cities) %>;
