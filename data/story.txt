@@ -21,9 +21,12 @@ and which ones don't. Will Amazon do the number crunching and make their
 decision strictly based on data? Or are there other factors that we have yet to
 know about? Only time will tell.
 
-:end 
+:end
 
 [sections]
+
+title: Introduction
+
 
 title: Overall Job Growth
 alignment: right
@@ -98,7 +101,7 @@ cost of living. However, even though Washington D.C. is on the more expensive
 side, the much more affordable Baltimore is a short train ride away.
 
 Taking amenities (restaurants, things to do, nightlife) into account, we see
-that Atlanta, Austin and Miami all stand out in those categories too. 
+that Atlanta, Austin and Miami all stand out in those categories too.
 
 \*Source: XXXXXX*
 
@@ -115,5 +118,16 @@ also going to be crucial in the selection process.
 Columbus, Newark, Chicago, LA, Atlanta, Montgomery County, Philadelphia and
 Newark have all offered Amazon tax incentives of at least $1 billion.
 :end
+
+filter: incentives
+
+title: Politics
+alignment: left
+text:
+
+talk about american politics, red states and blue states.
+:end
+
+filter: politics
 
 []

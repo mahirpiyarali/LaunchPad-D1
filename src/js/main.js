@@ -54,25 +54,49 @@ var filters = {
   airports: d=>d.Airport > 0,
   traffic: d=> d.Traffic > 10,
   incentives: d=>d.t_in_num > 0,
-  all: d=>true,
+  politics: d=>d.lean > 0,
+  all: d=>true
 
 }
 
+var lockMap = function(lock) {
+  var options = ["scrollWheelZoom", "touchZoom"];
+  var method = lock ? "disable" : "enable";
+  options.forEach(o => map[o][method]());
+};
+
+var currentFilter = null;
 window.addEventListener("scroll",function(e){
 
 for(var i = 0; i < blocks.length; i++){
   var el = blocks[i];
   var bounds = el.getBoundingClientRect();
   if(bounds.top > 0 && bounds.top < window.innerHeight*.8){
+    //check for the unlock getAttribute
+    //run the corresponding function
+
     var filtername = el.getAttribute("data-filter");
     if(!filtername) return;
+    if (filtername == currentFilter) return;
+    currentFilter = filtername;
     var filter = filters[filtername];
     var matches = window.cityData.filter(filter);
     window.cityData.forEach(d => d.marker.getElement().classList.remove("highlight"));
     matches.forEach(d=> d.marker.getElement().classList.add("highlight"));
+    var bounds = L.latLngBounds();
+    matches.forEach(m=> bounds.extend(m.marker.getLatLng()));
+    //console.log(bounds);
+    map.flyToBounds(bounds, { duration: 1 });
   }
 }
 
 });
+
+window.map = map;
+var unlockButton = $.one(".unlock")
+unlockButton.addEventListener("click",function(){
+  var unlocked = map.scrollWheelZoom.enabled();
+  lockMap(unlocked);
+})
 
 // map.on("click", e => console.log(e.latlng));
