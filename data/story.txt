@@ -4,8 +4,8 @@ starter:
 
 Amazon has decided to make their selection process for their HQ2 public,
 meaning that anyone and everyone has access to the [criteria they're looking
-for](https://LINK_GOES_HERE) in their next hub. Recently, they narrowed their
-search down to 20 final candidate cities, and are expected to make their final
+for](https://images-na.ssl-images-amazon.com/images/G/01/Anything/test/images/usa/RFP_3._V516043504_.pdf)
+in their next hub. Recently, they narrowed their search down to 20 final candidate cities, and are expected to make their final
 decision soon, with some experts predicting a decision within a month or so.
 This interactive map will walk you through some of Amazon's main criteria, and
 which cities do (and don't) fit the bill.
@@ -21,11 +21,27 @@ and which ones don't. Will Amazon do the number crunching and make their
 decision strictly based on data? Or are there other factors that we have yet to
 know about? Only time will tell.
 
+Want more information? [Click here](https://reflect.github.io/amazon-hq2-proposals/) to access a database with the HQ2 proposals
+from individual cities.
+
+
 :end
 
 [sections]
 
 title: Introduction
+filter: all
+text:
+
+Here are all 20 cities. As you scroll down this article, various criteria from
+Amazon will show up, and the map will pan and zoom to highlight the cities that
+match (some of the cities may fall behind the blocks of text). At any point you
+can click on any of the points on the map and all of the data for that city will
+pop up. At the bottom of the page is a button that can unlock the map to allow
+for you to explore, click and zoom around the page.
+
+:end
+
 
 
 title: Overall Job Growth
@@ -36,10 +52,10 @@ text:
 Amazon, in a document full of guidance for candidate cities, states that one
 of their main requirements in a city is a "stable business climate for
 growth." Looking at overall job growth, we can see that a number of cities
-stand out with more than 5% increase over the last 10 years, including Boston,
-Atlanta, Austin, Denver, Raleigh and Columbus.
+stand out with more than 5% increase over the last 10 years. **Note:** a few
+highlighted cities appear behind this block.
 
-\*Source: XXXXXX*
+\*Source: Bureau of Labor Statistics*
 
 :end
 
@@ -48,12 +64,23 @@ alignment: left
 filter: t_growth
 text:
 
-Of course, it's not just any kind of jobs that Amazon is looking for. Taking
-tech jobs into account, Austin, Atlanta, Dallas and Denver have all had
-overall job growth of more than 5% in the last 10 years, and a tech sector job
-growth of more than 6% in the last 5 years.
+Of course, it's not just any kind of job that Amazon is looking for. Taking
+tech jobs into account, we can cross reference the cities with an overall job
+growth of 5% in the last 10 years with cities that have a tech sector job growth
+of more than 6% in the last 5 years. Adding tech jobs to the equation reduces us
+down to only four cities.
 
-\*Source: XXXXXX*
+\*Source: Brookings Institute*
+:end
+
+title: Incentives
+alignment: left
+filter: incentives
+text:
+
+All of the above factors aside, Amazon also says that various incentives are
+also going to be crucial in the selection process. These are all the cities that
+have offered incentives of at least $1 billion.
 
 :end
 
@@ -64,9 +91,8 @@ text:
 One of the main decision factors listed by Amazon is the potential site's
 access to airports: "an international airport with daily direct
 flights to Seattle, New York, San Francisco/Bay Area, and Washington, D.C. is
-also an important consideration." Looking through the final 20 candidate cities,
-we see that all but Nashville, Columbus and Montgomery County have an airport
-in close proximity.
+also an important consideration." Looking at all of the cities, all but the three
+highlighted cities meet this criteria.
 
 :end
 
@@ -76,50 +102,40 @@ text:
 
 But what about the logistics of commuting *within* the city? Amazon says that
 they'll need to be able to shuffle around 50,000+ employees every day. Based
-on congestion ratings, LA, Washington DC, Northern Virginia, New York,
-Atlanta, Chicago, Boston and Miami all rank in the 10 worst cities for traffic
-in North America.
+on congestion ratings, we highlight the 8 of the 20 candidate cities are in the 10
+worst cities in North America.
 
 \*Source: INRIX*
 
 :end
 
 title: Quality of Life
-filter: rent
+filter: all
 text:
 
-Finally, quality of life is an important qualification for Amazon's choice.
-[Do you have a link or specific quote for this? -TW] Let's narrow it down to
+Amazon, in their criteria document, say that they want to "invest in a community where our employees will enjoy living, recreational opportunities, educational
+opportunities, and an overall high quality of life." Let's narrow it down to
 two major components: cost of living and various amenities. These two
 components are relatively proportional, with the latter generally leading to
 the former. That being said, we look for cities that can strike a balance
 between the two.
+
+:end
+
+title: Cost of Living
+filter: rent
+text:
 
 Cities like Atlanta, Miami, Austin, Denver, Chicago and Toronto all have
 median rent prices below $1150 per month, making them relatively cheap for the
 cost of living. However, even though Washington D.C. is on the more expensive
 side, the much more affordable Baltimore is a short train ride away.
 
-Taking amenities (restaurants, things to do, nightlife) into account, we see
-that Atlanta, Austin and Miami all stand out in those categories too.
-
-\*Source: XXXXXX*
+\*Source: Apartment List Rent Data*
 
 :end
 
-title: Incentives
-alignment: left
-filter: incentives
-text:
 
-All of the above factors aside, Amazon also says that various incentives are
-also going to be crucial in the selection process.
-
-Columbus, Newark, Chicago, LA, Atlanta, Montgomery County, Philadelphia and
-Newark have all offered Amazon tax incentives of at least $1 billion.
-:end
-
-filter: incentives
 
 title: Politics
 alignment: left

@@ -14,7 +14,6 @@ var markerLayer = new L.FeatureGroup();
 window.cityData.forEach(function(row){
   var marker = new L.Marker([row.Lat,-row.Long], {
     title: row.City,
-
     riseOnHover: true,
     autoPan: true,
     bubblingMouseEvents: true,
@@ -34,7 +33,7 @@ row.marker = marker;
   <li> Overall job growth (last 10 years): <b>${row.j_g_p}</b>
   <li> Job Growth in Tech Sector (last 5 years): <b>${row.t_g_p}</b>
   <li> Offered tax incentives: <b>${row.tax_in}</b>
-  <li> Traffic congestion: <b>${row.Traffic}</b>
+  <li> Traffic congestion: <b>${row.traftext}</b>
   <li> Airport(s) that meet requirements: <b>${row.Airport_Name}</b>
 </ul>
   `);
@@ -51,11 +50,12 @@ var filters = {
   j_growth: d=>d.j_growth > .05,
   t_growth: d=>d.tech_growth > .06 && d.j_growth > .05,
   rent: d=>d.rent < 1150,
-  airports: d=>d.Airport > 0,
+  airports: d=>d.Airport < 1,
   traffic: d=> d.Traffic > 10,
   incentives: d=>d.t_in_num > 0,
   politics: d=>d.lean > 0,
-  all: d=>true
+  all: d=>true,
+  none:d=>false
 
 }
 
@@ -86,7 +86,7 @@ for(var i = 0; i < blocks.length; i++){
     var bounds = L.latLngBounds();
     matches.forEach(m=> bounds.extend(m.marker.getLatLng()));
     //console.log(bounds);
-    map.flyToBounds(bounds, { duration: 1 });
+    map.flyToBounds(bounds, { duration: 1.5 , easeLinearity: .1});
   }
 }
 
