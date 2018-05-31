@@ -27,7 +27,7 @@ growth." Looking at overall job growth, we can see that a number of cities
 stand out with more than 5% increase over the last 10 years, including Boston,
 Atlanta, Austin, Denver, Raleigh and Columbus.
 
-*Source: XXXXXX*
+\*Source: XXXXXX*
 
 :end
 
@@ -41,7 +41,7 @@ tech jobs into account, Austin, Atlanta, Dallas and Denver have all had
 overall job growth of more than 5% in the last 10 years, and a tech sector job
 growth of more than 6% in the last 5 years.
 
-*Source: XXXXXX*
+\*Source: XXXXXX*
 
 :end
 
@@ -68,7 +68,7 @@ on congestion ratings, LA, Washington DC, Northern Virginia, New York,
 Atlanta, Chicago, Boston and Miami all rank in the 10 worst cities for traffic
 in North America.
 
-*Source: INRIX*
+\*Source: INRIX*
 
 :end
 
@@ -91,7 +91,7 @@ side, the much more affordable Baltimore is a short train ride away.
 Taking amenities (restaurants, things to do, nightlife) into account, we see
 that Atlanta, Austin and Miami all stand out in those categories too. 
 
-*Source: XXXXXX*
+\*Source: XXXXXX*
 
 :end
 
