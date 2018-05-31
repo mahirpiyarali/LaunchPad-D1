@@ -10,7 +10,7 @@
       <h1><%= archieml.story.title %></h1>
       <img src="./assets/p1.jpg">
       <div class="constrained">
-        <%= archieml.story.starter %>
+        <%= t.renderMarkdown(archieml.story.starter) %>
       </div>
     </section>
     <div class="constrained">

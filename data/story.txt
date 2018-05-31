@@ -4,7 +4,7 @@ starter:
 
 Amazon has decided to make their selection process for their HQ2 public,
 meaning that anyone and everyone has access to the [criteria they're looking
-for](LINK GOES HERE -TW) in their next hub. Recently, they narrowed their
+for](https://LINK_GOES_HERE) in their next hub. Recently, they narrowed their
 search down to 20 final candidate cities, and are expected to make their final
 decision soon, with some experts predicting a decision within a month or so.
 This interactive map will walk you through some of Amazon's main criteria, and
