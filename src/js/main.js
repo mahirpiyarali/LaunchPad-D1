@@ -19,6 +19,7 @@ window.cityData.forEach(function(row){
     autoPan: true,
     bubblingMouseEvents: true,
     icon: L.divIcon({
+      iconUrl: "x.jpg",
       className: "city-marker"
     })
   });
@@ -69,10 +70,7 @@ for(var i = 0; i < blocks.length; i++){
     var matches = window.cityData.filter(filter);
     window.cityData.forEach(d => d.marker.getElement().classList.remove("highlight"));
     matches.forEach(d=> d.marker.getElement().classList.add("highlight"));
-    //console.log(matches);
-    break;
   }
-
 }
 
 });
