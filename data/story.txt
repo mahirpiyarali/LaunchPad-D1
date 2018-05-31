@@ -1,15 +1,14 @@
-title: Mapping Out Amazon's Future Home
+title: Mapping out Amazon's future home
 
 starter:
 
-It's a contest! Amazon has decided to make their selection process for their
-HQ2 public, meaning that anyone and everyone has access to the criteria
-they're looking for in their next hub. All interested cities were instructed
-to submit a proposal on why that city should be Amazon's next home. Recently,
-they narrowed their search down to 20 final candidate cities, and are expected
-to make their final decision soon, with some experts predicting a decision
-within a month or so. This interactive map will walk you through some of
-Amazon's main criteria and which cities do/don't fit the bill.
+Amazon has decided to make their selection process for their HQ2 public,
+meaning that anyone and everyone has access to the [criteria they're looking
+for](LINK GOES HERE -TW) in their next hub. Recently, they narrowed their
+search down to 20 final candidate cities, and are expected to make their final
+decision soon, with some experts predicting a decision within a month or so.
+This interactive map will walk you through some of Amazon's main criteria, and
+which cities do (and don't) fit the bill.
 
 :end
 
@@ -19,80 +18,86 @@ closer: TEST
 
 title: Overall Job Growth
 alignment: right
+filter: j_growth
 text:
 
 Amazon, in a document full of guidance for candidate cities, states that one
-of their main requirements in a city is a "stable business climate for growth".
-Looking at overall job growth, we can see that a bunch of cities stand out,
-including Boston, Atlanta, Austin, Denver, Raleigh and Columbus.
-:end
+of their main requirements in a city is a "stable business climate for
+growth." Looking at overall job growth, we can see that a number of cities
+stand out with more than 5% increase over the last 10 years, including Boston,
+Atlanta, Austin, Denver, Raleigh and Columbus.
 
-filter: j_growth
+*Source: XXXXXX*
+
+:end
 
 title: Tech Sector Job Growth
 alignment: left
+filter: t_growth
 text:
-Overall job growth can then be cross referenced with job growth within the tech
-sector. This highlights Austin, Atlanta, Dallas and Denver. All of which have
-overall job growth over 5% in the last 10 years, and a tech sector job growth of over 6% in
-the last 5 years.
+
+Of course, it's not just any kind of jobs that Amazon is looking for. Taking
+tech jobs into account, Austin, Atlanta, Dallas and Denver have all had
+overall job growth of more than 5% in the last 10 years, and a tech sector job
+growth of more than 6% in the last 5 years.
+
+*Source: XXXXXX*
 
 :end
 
-filter: t_growth
-
-
 title: Commuting, Airports
+filter: airports
 text:
 
 One of the main decision factors listed by Amazon is the potential site's
-access to airports. It reads "an international airport with daily direct
+access to airports: "an international airport with daily direct
 flights to Seattle, New York, San Francisco/Bay Area, and Washington, D.C. is
 also an important consideration." Looking through the final 20 candidate cities,
 we see that all but Nashville, Columbus and Montgomery County have an airport
-in close proximity that meet this criteria.
+in close proximity.
 
 :end
-
-filter: airports
 
 title: Commuting, Congestion
+filter: traffic
 text:
 
-We then also can look at the logistics of commuting within the city. Amazon
-says that they'll need to be able to shuffle around 50,000+ employees within
-the city. Looking at congestion rankings from INRIX, we see that LA, Washington
-DC, Northern Virginia, New York, Atlanta, Chicago, Boston and Miami all have congestion
-ranking in the 10 worst cities in North America.
+But what about the logistics of commuting *within* the city? Amazon says that
+they'll need to be able to shuffle around 50,000+ employees every day. Based
+on congestion ratings, LA, Washington DC, Northern Virginia, New York,
+Atlanta, Chicago, Boston and Miami all rank in the 10 worst cities for traffic
+in North America.
+
+*Source: INRIX*
 
 :end
-
-filter: traffic
 
 title: Quality of Life
+filter: rent
 text:
 
-When looking at quality of life, we narrow it down to two major components.
-Cost of living and various amenities. These two components are relatively
-proportional, with the best amenities leading to higher costs of living. That
-being said, we look for cities that can strike a balance between the two.
+Finally, quality of life is an important qualification for Amazon's choice.
+[Do you have a link or specific quote for this? -TW] Let's narrow it down to
+two major components: cost of living and various amenities. These two
+components are relatively proportional, with the latter generally leading to
+the former. That being said, we look for cities that can strike a balance
+between the two.
 
-Looking simply at Costs of Living, we see that cities like Atlanta, Miami,
-Austin, Denver, Chicago and Toronto all have median rent prices below $1150 per
-month. An interesting note, however, is that even though Washington D.C. is on
-the more expensive side, a much more affordable Baltimore is a short train ride
-away.
+Cities like Atlanta, Miami, Austin, Denver, Chicago and Toronto all have
+median rent prices below $1150 per month, making them relatively cheap for the
+cost of living. However, even though Washington D.C. is on the more expensive
+side, the much more affordable Baltimore is a short train ride away.
 
-Combining that with the amenities component (restaurants, things to do,
-nightlife), we see that Atlanta, Austin and Miami all stand out in those
-categories too.
+Taking amenities (restaurants, things to do, nightlife) into account, we see
+that Atlanta, Austin and Miami all stand out in those categories too. 
+
+*Source: XXXXXX*
 
 :end
-
-filter: rent
 
 title: Incentives
 alignment: left
+filter: incentives
 text:
 
 All of the above factors aside, Amazon also says that various incentives are
@@ -101,8 +106,5 @@ also going to be crucial in the selection process.
 Columbus, Newark, Chicago, LA, Atlanta, Montgomery County, Philadelphia and
 Newark have all offered Amazon tax incentives of at least $1 billion.
 :end
-
-filter: incentives
-
 
 []
