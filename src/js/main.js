@@ -52,7 +52,7 @@ var filters = {
   airports: d=>d.Airport > 0,
   traffic: d=> d.Traffic > 10,
   incentives: d=>d.t_in_num > 0,
-  politics: d=>d.lean > 0,
+  politics: d=>d.swing > 0,
   all: d=>true,
   none:d=>false
 

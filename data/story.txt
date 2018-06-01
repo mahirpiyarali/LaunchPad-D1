@@ -19,20 +19,9 @@ that Amazon has visited all 20 candidate cities and is expected to make an
 announcement soon. We've seen all the criteria, and we know which cities match
 and which ones don't. Will Amazon do the number crunching and make their
 decision strictly based on data? Or are there other factors that we have yet to
-know about? Only time will tell. Want more information? [Click here](https://reflect.github.io/amazon-hq2-proposals/) to access a database with the HQ2 proposals
+know about? Only time will tell. Want more information?
+[Click here](https://reflect.github.io/amazon-hq2-proposals/) to access a database with the HQ2 proposals
 from individual cities.
-
-
-:end
-
-[key]
-
-title: **KEY**
-alignment: right
-text:
-
-* Orange: city that *does* meet criteria
-* Black: city that *doesn't* meet criteria
 
 :end
 
@@ -49,6 +38,15 @@ pop up. At the bottom of the page is a button that can unlock the map to allow
 for you to explore, click and zoom around the page.
 
 
+:end
+
+title: KEY
+alignment: right
+filter: all
+text:
+
+* Orange: city that *does* meet criteria
+* Black: city that *doesn't* meet criteria
 :end
 
 
@@ -100,8 +98,8 @@ text:
 One of the main decision factors listed by Amazon is the potential site's
 access to airports: "an international airport with daily direct
 flights to Seattle, New York, San Francisco/Bay Area, and Washington, D.C. is
-also an important consideration." Looking at all of the cities, all but the three
-highlighted cities meet this criteria.
+also an important consideration." 17 of the 20 final cities have an airport
+that meets this criteria.
 
 :end
 
@@ -110,9 +108,9 @@ filter: traffic
 text:
 
 But what about the logistics of commuting *within* the city? Amazon says that
-they'll need to be able to shuffle around 50,000+ employees every day. Based
-on congestion ratings, we highlight the 8 of the 20 candidate cities are in the 10
-worst cities in North America.
+they'll need to be able to shuffle around 50,000+ employees every day. Based on
+North American traffic congestion ratings, we see that 8 of the 20 candidate
+
 
 \*Source: INRIX*
 
@@ -147,10 +145,16 @@ side, the much more affordable Baltimore is a short train ride away.
 
 
 title: Politics
+filter: politics
 alignment: left
 text:
 
-talk about american politics, red states and blue states.
-:end
+Another thing to consider, outside of Amazon's named criteria, is the political
+sway of the potential cities. A recent article by The Atlantic brought to light
+the potential of Amazon's new base influencing the politics of an entire state,
+and by extension, potentially flipping a red state blue. States like Ohio,
+Pennsylvania and North Carolina are all considered swing states. The
+introduction of an additional 50,000 voters may have a lasting impact on state
+politics. Highlighted are all of the candidate cities that are in "swing" states.
 
-filter: politics
+:end
