@@ -1,4 +1,4 @@
-title: Mapping out Amazon's future home
+title: Where's Amazon Heading Next?
 
 starter:
 
@@ -19,18 +19,26 @@ that Amazon has visited all 20 candidate cities and is expected to make an
 announcement soon. We've seen all the criteria, and we know which cities match
 and which ones don't. Will Amazon do the number crunching and make their
 decision strictly based on data? Or are there other factors that we have yet to
-know about? Only time will tell.
-
-Want more information? [Click here](https://reflect.github.io/amazon-hq2-proposals/) to access a database with the HQ2 proposals
+know about? Only time will tell. Want more information? [Click here](https://reflect.github.io/amazon-hq2-proposals/) to access a database with the HQ2 proposals
 from individual cities.
 
+
+:end
+
+[key]
+
+title: **KEY**
+alignment: right
+text:
+
+* Orange: city that *does* meet criteria
+* Black: city that *doesn't* meet criteria
 
 :end
 
 [sections]
 
 title: Introduction
-filter: all
 text:
 
 Here are all 20 cities. As you scroll down this article, various criteria from
@@ -39,6 +47,7 @@ match (some of the cities may fall behind the blocks of text). At any point you
 can click on any of the points on the map and all of the data for that city will
 pop up. At the bottom of the page is a button that can unlock the map to allow
 for you to explore, click and zoom around the page.
+
 
 :end
 
@@ -145,5 +154,3 @@ talk about american politics, red states and blue states.
 :end
 
 filter: politics
-
-[]

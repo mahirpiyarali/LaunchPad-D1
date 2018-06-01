@@ -15,8 +15,7 @@ window.cityData.forEach(function(row){
   var marker = new L.Marker([row.Lat,-row.Long], {
     title: row.City,
     riseOnHover: true,
-    autoPan: true,
-    bubblingMouseEvents: true,
+
     icon: L.divIcon({
       iconUrl: "x.jpg",
       className: "city-marker"
@@ -50,7 +49,7 @@ var filters = {
   j_growth: d=>d.j_growth > .05,
   t_growth: d=>d.tech_growth > .06 && d.j_growth > .05,
   rent: d=>d.rent < 1150,
-  airports: d=>d.Airport < 1,
+  airports: d=>d.Airport > 0,
   traffic: d=> d.Traffic > 10,
   incentives: d=>d.t_in_num > 0,
   politics: d=>d.lean > 0,

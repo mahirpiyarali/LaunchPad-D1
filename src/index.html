@@ -22,7 +22,9 @@
         <%= t.renderMarkdown(archieml.story.starter) %>
       </div>
     </section>
+
     <div class="constrained">
+
     <% archieml.story.sections.forEach(function(section) { %>
 
         <section class="map-item <%= section.alignment %>" data-filter="<%= section.filter %>">
@@ -30,12 +32,14 @@
           <%= t.renderMarkdown(section.text || "") %>
         </section>
 
+
     <% }) %>
+
       <section class="map-item" data-unlock>
         <h2>See for yourself</h2>
         <button class="unlock"> Lock or Unlock</button>
 
-        Click on the button to unlock the map for zooming and scrolling.
+        Click on the button to unlock the map for zooming and scrolling
       </section>
     </div>
     <div class="map-container">
@@ -48,8 +52,9 @@
     </div>
 
     <section class="outro over">
+
       <div class="constrained">
-        <%= archieml.story.closer %>
+        <%= t.renderMarkdown(archieml.story.closer) %>
       </div>
     </section>
 
