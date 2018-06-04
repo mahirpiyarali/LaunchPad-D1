@@ -16,11 +16,28 @@ closer:
 
 Though Amazon has yet to declare the date of their announcement, analysts report
 that Amazon has visited all 20 candidate cities and is expected to make an
-announcement soon. We've seen all the criteria, and we know which cities match
-and which ones don't. Will Amazon do the number crunching and make their
-decision strictly based on data? Or are there other factors that we have yet to
-know about? Only time will tell. Want more information?
-[Click here](https://reflect.github.io/amazon-hq2-proposals/) to access a database with the HQ2 proposals
+announcement soon. That being said, there are still many things that are left unanswered.
+
+
+Sure, we know the criteria that Amazon *says* they'll take into consideration.
+But, is there going to be any more that gets factored into the decision? Austin is the headquarters
+of Whole Foods, the grocery giant that was acquired by Amazon. LA is the only west-coast city,
+and it seems like Amazon wants to reach out geographically. Speaking of geography, Toronto is
+the only city out of the United States and, with 19 other cities all in the US, perhaps
+Amazon is not looking at going international. Lastly, though politics may fit in with Amazon's
+RFP on "cultural and community fit", in the map we only looked at the cities that truly fit
+in with Amazon's liberal backings. However, Dallas is the most "red" city out of the 20 candidates,
+meaning that there may be more divisions brought into the greater Dallas area with an
+extremely blue company coming into an already divided city.
+
+
+Amazon has told us what they say they're looking for, and by looking at all the data we
+see that cities like Austin, Atlanta and Denver seem to meet all the criteria. But, will Amazon
+make their decision solely on this data? Or will there be other factors that only the top
+execs know about? Only time will tell.
+
+
+Want more information? [Click here](https://reflect.github.io/amazon-hq2-proposals/) to access a database with the HQ2 proposals
 from individual cities.
 
 :end
@@ -42,10 +59,10 @@ for you to explore, click and zoom around the page.
 
 title: KEY
 alignment: right
-filter: all
+filter: incentives
 text:
 
-* Orange: city that *does* meet criteria
+* Green: city that *does* meet criteria
 * Black: city that *doesn't* meet criteria
 :end
 
@@ -57,10 +74,9 @@ filter: j_growth
 text:
 
 Amazon, in a document full of guidance for candidate cities, states that one
-of their main requirements in a city is a "stable business climate for
+of their main requirements in a city is a "stable and consistent business climate for
 growth." Looking at overall job growth, we can see that a number of cities
-stand out with more than 5% increase over the last 10 years. **Note:** a few
-highlighted cities appear behind this block.
+stand out with more than 5% increase over the last 10 years.
 
 \*Source: Bureau of Labor Statistics*
 
@@ -85,7 +101,7 @@ alignment: left
 filter: incentives
 text:
 
-All of the above factors aside, Amazon also says that various incentives are
+Amazon also says that various incentives are
 also going to be crucial in the selection process. These are all the cities that
 have offered incentives of at least $1 billion.
 
@@ -93,6 +109,7 @@ have offered incentives of at least $1 billion.
 
 title: Commuting, Airports
 filter: airports
+highlight: false
 text:
 
 One of the main decision factors listed by Amazon is the potential site's
@@ -117,7 +134,7 @@ North American traffic congestion ratings, we see that 8 of the 20 candidate
 :end
 
 title: Quality of Life
-filter: all
+filter: none
 text:
 
 Amazon, in their criteria document, say that they want to "invest in a community where our employees will enjoy living, recreational opportunities, educational
@@ -133,7 +150,7 @@ title: Cost of Living
 filter: rent
 text:
 
-Cities like Atlanta, Miami, Austin, Denver, Chicago and Toronto all have
+Cities like Atlanta, Miami, Austin, Denver and Chicago all have
 median rent prices below $1150 per month, making them relatively cheap for the
 cost of living. However, even though Washington D.C. is on the more expensive
 side, the much more affordable Baltimore is a short train ride away.
@@ -142,6 +159,12 @@ side, the much more affordable Baltimore is a short train ride away.
 
 :end
 
+title: Cultural Community Fit
+text: In Amazon's criteria document, they mention the importance of a "compatible cultural
+and community environment for long term success". Including a "diverse population,
+excellent institutions of higher education", we highlight the cities that have more than three
+higher education institutions and 
+
 
 
 title: Politics
@@ -149,8 +172,8 @@ filter: politics
 alignment: left
 text:
 
-Another thing to consider, outside of Amazon's named criteria, is the political
-sway of the potential cities. A recent article by The Atlantic brought to light
+Feeding off of Cultural Community Fit is the political climate of the potential cities.
+A recent article by [The Atlantic](https://www.theatlantic.com/politics/archive/2018/02/amazon-headquarters-politics/553394/) brought to light
 the potential of Amazon's new base influencing the politics of an entire state,
 and by extension, potentially flipping a red state blue. States like Ohio,
 Pennsylvania and North Carolina are all considered swing states. The

@@ -17,7 +17,6 @@ window.cityData.forEach(function(row){
     riseOnHover: true,
 
     icon: L.divIcon({
-      iconUrl: "x.jpg",
       className: "city-marker"
     })
   });
@@ -32,6 +31,7 @@ row.marker = marker;
   <li> Overall job growth (last 10 years): <b>${row.j_g_p}</b>
   <li> Job Growth in Tech Sector (last 5 years): <b>${row.t_g_p}</b>
   <li> Offered tax incentives: <b>${row.tax_in}</b>
+  <li> State's Political Lean: <b>${row.lean}</b>
   <li> Traffic congestion: <b>${row.traftext}</b>
   <li> Airport(s) that meet requirements: <b>${row.Airport_Name}</b>
 </ul>
@@ -50,8 +50,9 @@ var filters = {
   t_growth: d=>d.tech_growth > .06 && d.j_growth > .05,
   rent: d=>d.rent < 1150,
   airports: d=>d.Airport > 0,
-  traffic: d=> d.Traffic > 10,
+  traffic: d=>d.Traffic > 10,
   incentives: d=>d.t_in_num > 0,
+  key: d=>d.key > 0,
   politics: d=>d.swing > 0,
   all: d=>true,
   none:d=>false
@@ -85,7 +86,8 @@ for(var i = 0; i < blocks.length; i++){
     var bounds = L.latLngBounds();
     matches.forEach(m=> bounds.extend(m.marker.getLatLng()));
     //console.log(bounds);
-    map.flyToBounds(bounds, { duration: 1.5 , easeLinearity: .1});
+    map.flyToBounds(bounds, { duration: 1.3 , easeLinearity: .1});
+    //iconSize: [30,30];
   }
 }
 
