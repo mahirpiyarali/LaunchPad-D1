@@ -1,5 +1,17 @@
 @import "seattletimes";
 
+.intro {
+  h1 {
+    font-size: 55px;
+    text-align: center;
+  }
+
+  .splash {
+    width: 100%;
+    margin: auto;
+  }
+}
+
 leaflet-map:not([ready]) {
   opacity: 0;
 }
@@ -76,16 +88,24 @@ leaflet-map:not([ready]) {
 }
 
 .city-marker {
-  background: @df-dark-gray;
-  border-radius: 50%;
-  &.highlight{
-    background: orange;
-    //iconSize: [20,20];
-  }
-  &.highlight2{
-    background: red;
-    //border-radius: 300%
-  }
-    //iconUrl: "./assets/pin.psd";
 
+  .dot {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: @df-dark-gray;
+    border-radius: 50%;
+    transition: transform .8s ease;
+  }
+
+  &.highlight .dot {
+    background: orange;
+    transform: scale(2);
+  }
+  &.negative .dot {
+    background: red;
+    transform: scale(2);
+  }
   }
